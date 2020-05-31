@@ -1,0 +1,96 @@
+<!doctype html>
+<!-- обьявляем тип документа  -->
+<html lang="ru">
+
+<head>
+    <!-- заголовок страници, подключают стили, шрифты и так далее -->
+    <!-- в первую очередь в хеде задаём кодировку -->
+    <meta charset="utf-8">
+    <!--Подключаем фаил с нашими стилями (style.css)-->
+    <link rel="stylesheet" href="style.css">
+    <!--Подключаем наши шрифты заходим на fonts.google.com в поиске выбираем шрифты которые нам нужны выбираем если нужно латиницу и кирилицу и потом копируем ссылки на шрифты -->
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans|Raleway:400,600,700&display=swap&subset=cyrillic-ext"
+          rel="stylesheet">
+    <!--Далее заголовок-->
+    <title>A.Surovtsev Learning Blog</title>
+</head>
+
+<body>
+<!--в бади пишем основной код который мы видем на странице-->
+<!--берём расписываем шапку-->
+<!--Создали хедер (класс хедер) в нём создаём контейнер,
+    в котором определяем саму шапочку header__inner,
+    в иннере расписываем лого и кнопки навигации -->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo"><img src="img/logo3.png" alt=""></div>
+            <nav class="nav"><a class="navlink" href="#">JAVA</a> <a class="navlink" href="#">You tube</a> <a
+                    class="navlink" href="#">Book</a> <a class="navlink" href="#">My LESONS</a> <a class="navlink"
+                                                                                                   href="#">Contact</a>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--Интро-->
+<div class="intro">
+    <div class="container">
+        <div class="intro_inner">
+            <h1 class="intro_title"> Привет, это мой блог или портфолию или называйте это как хотите ☺</h1>
+            <h2 class="IntroSubTitle"> Тут я буду выкладывать все записи наработки по обучению програмированию на Java.
+                Плюс дополнительно записи по другим сопутствующим языкам программирования и не только.</h2> <a
+                class="btn btn--red" href="#">Больше о мне</a></div>
+    </div>
+</div>
+<!--Коробки с иконками-->
+<div class="container">
+    <div class="box">
+        <div class="boxitem"><img class="boxicon" src="img/ico%20java.png" alt="">
+            <h4 class="box_title">JAVA</h4>
+            <div class="box_text">Всё о программировании, практика ресурсы и.т.д</div>
+        </div>
+        <div class="boxitem"><img class="boxicon" src="img/ico%20db.png" alt="">
+            <h4 class="box_title">SQL</h4>
+            <div class="box_text">Базы данных SQL и всё что с ними связано</div>
+        </div>
+        <div class="boxitem"><img class="boxicon" src="img/ico%20html.png" alt="">
+            <h4 class="box_title">HTML/CSS</h4>
+            <div class="box_text">Основы: разметк, структура, оновные теги, стиль.</div>
+        </div>
+        <div class="boxitem"><img class="boxicon" src="img/ico%20git.png" alt="">
+            <h4 class="box_title">GIT</h4>
+            <div class="box_text">Базовые команды GitHub:</div>
+        </div>
+        <div class="boxitem"><img class="boxicon" src="img/ico%20js.png" alt="">
+            <h4 class="box_title">Javascript</h4>
+            <div class="box_text"></div>
+        </div>
+        <div class="boxitem"><img class="boxicon" src="img/ico%20downl.png" alt="">
+            <h4 class="box_title">Download</h4>
+            <div class="box_text">Всё что может пригодится</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="conteiner">
+        <div class="footer_inner">
+            <div class="footerblok">
+                <h4 class="footer_title">Контанктные данные</h4>
+                <address class="faddress">
+                    <p>Украина, Черкассы</p>
+                    <p>тел. +38(063)744-70-55</p>
+                </address>
+            </div>
+            <div class="footerblok">
+                <img class="footericon" src="img/fbico.png" alt="">
+                <img class="footericon" src="img/email.png" alt="">
+                <img class="footericon" src="img/teleg.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
